@@ -1,0 +1,100 @@
+@font-face {
+    font-family: gordo;
+    src: url(../assets/soka-Regular.ttf);
+  }
+@font-face{
+    font-family : redo;
+    src: url(../assets/LilitaOne-Regular.ttf);
+}
+
+body{
+    background-image: linear-gradient(to right, #647af7, #fc4444);
+
+}
+#boneco{
+    position: absolute;
+   bottom: -10px;
+    left: 0;
+    margin: 10px;
+       width: 700px;
+       height: 500px;
+}
+#t1{
+    background-image: linear-gradient(to right, #ffffff, #fd02022f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: gordo;
+    margin: 10px;
+    font-size: 50px;
+    position: relative;
+    padding-top: 100px;
+    text-align: center;
+}
+#t2{
+    background-image: linear-gradient(to right, #ffffff, #ff7272);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: gordo;
+    margin: 10px;
+    font-size: 50px;
+    position: relative;
+    padding-top: 100px;
+    text-align: center;
+}
+#discord{
+    width: 200px;
+    height: 150px;
+      padding-left: 850px;
+      padding-top: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+}
+
+#btvoltar{
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+   border-color: #6200ff;
+   border-radius: 25px;
+   width:250px;
+   height:50px;
+}
+#tl{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1600px;
+    padding-top: 30px;
+    font-weight: bold;
+    font-weight: 900;
+    color: 	#ffffff;
+    font-family: gordo;
+}
+#direitos{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    padding-top: 30px;
+    font-family: gordo;
+    background-image: linear-gradient(to right, #0481f7, #751511);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#it{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: center;
+    margin-top: -50px;
+    font-weight: bold;
+    font-weight: 900;
+    background-image: linear-gradient(to right, #ffffff, #ff7272);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: 	#ffffff;
+    font-family: gordo;
+}

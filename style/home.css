@@ -1,0 +1,102 @@
+@font-face {
+    font-family: gordo;
+    src: url(../assets/soka-Regular.ttf);
+  }
+@font-face{
+    font-family : redo;
+    src: url(../assets/LilitaOne-Regular.ttf);
+}
+
+
+body{
+    background-image: linear-gradient(to right, rgb(0, 132, 255), rgb(162, 156, 248));
+    height: 100%;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#t1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    color: 	#ffffff;
+    font-family: gordo;
+
+}
+#direitos{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    padding-top: 30px;
+    font-family: gordo;
+    background-image: linear-gradient(to right, #0084ff, #6200ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#tl{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1600px;
+    padding-top: 30px;
+    font-weight: bold;
+    font-weight: 900;
+    color: 	#ffffff;
+    font-family: gordo;
+}
+
+
+#clay{
+    font-family: redo;
+    font-size: 130px;
+    letter-spacing: 5px;
+    color: #ffffff;
+}
+
+#tudo{
+    margin-top: -300px;
+    margin-left: 150px;
+    font-family: gordo;
+    color: 	#dcc9ff;
+
+}
+#esp{
+    padding-top: 30px;
+}
+#esp1{
+    padding-bottom:45px ;
+}
+
+#cartman{
+    padding-top: 285px;
+ margin-left: 1000px;
+    width: 300px;
+    height: 300px;
+   
+}
+#bt{
+    margin-left: 150px;
+    padding-top: 100px;
+    
+}
+#bt1{
+    border-radius: 25px;
+    width:200px;
+	height:45px;
+    background-image: linear-gradient(to right, #73bbff, #fff170);
+    color: #000000;
+    font-weight: bold;
+    border-color: transparent;
+}
+#bt2{
+    border-radius: 25px;
+    width:200px;
+	height:45px;
+    background-color: transparent;
+    color: #ffffff;
+    font-weight: bold;
+   border-color: #6200ff;
+}
