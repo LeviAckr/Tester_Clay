@@ -100,3 +100,16 @@ body{
     font-weight: bold;
    border-color: #6200ff;
 }
+#cima{
+    margin-left: 250px;
+    padding-top: 20px;
+}
+#bt3{
+    border-radius: 25px;
+    width:200px;
+	height:45px;
+    background-color: transparent;
+    color: #ffffff;
+    font-weight: bold;
+   border-color: #0044ff;
+}

@@ -4,3 +4,6 @@ function redirecionar(){
 function redirecionar1(){
     window.location.href = "comandos.html";
 }
+function redirecionar2(){
+    window.location.href = "upload.html";
+}

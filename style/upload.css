@@ -1,0 +1,82 @@
+@font-face {
+    font-family: gordo;
+    src: url(../assets/soka-Regular.ttf);
+  }
+@font-face{
+    font-family : redo;
+    src: url(../assets/LilitaOne-Regular.ttf);
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(255, 123, 0), rgb(219, 161, 114));
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#kenny{
+    width: 1200px;
+    position:absolute;
+    bottom: -20px;
+    right: -400px;
+    margin: 0px; 
+}
+#tl{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1600px;
+    padding-top: 30px;
+    font-weight: bold;
+    font-weight: 900;
+    color: 	#ffffff;
+    font-family: gordo;
+}
+#direitos{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    padding-top: 40px;
+    font-family: gordo;
+    background-image: linear-gradient(to right, #ff4800, #723e13);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#btvoltar{
+    border-radius: 25px;
+    width:225px;
+	height:45px;
+    font-size: 15px;
+    background-image: linear-gradient(to right, rgb(253, 101, 0), #42271c);
+    color: #ffffff;
+    font-weight: bold;
+    border-color: rgba(61, 59, 100, 0);
+}
+#bt{
+    padding-left: 750px;
+    margin-left: 80px;
+    padding-top: 350px;
+}
+#imagem{
+    width: 100px;
+    margin-bottom: 0;
+  padding-left: 870px;
+  padding-top: 40px;
+}
+#tg{
+    font-family: redo;
+    letter-spacing: 4px;
+    color: azure;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 150px;
+    margin-bottom: 0;
+}
+#sel{
+    font-family: gordo;
+    letter-spacing: 4px;
+    color: azure;
+    text-align: center;
+    padding-right: 10px;
+    margin: 0px;
+}
