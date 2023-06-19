@@ -35,3 +35,7 @@ In short, The Clay Tester is a complete platform that brings together a reposito
 ### VS
 
 **1.2**  `initial version of Tester-clay; adding just the menu pages and the support page;`
+
+**1.4**  `add(command page 1/2;) button repair; color changes;`
+
+**2.0**  `add(addition of file upload page) button repair; changes to page {home};`
