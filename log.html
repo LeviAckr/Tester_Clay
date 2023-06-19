@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Página Destino</title>
+  <link rel="stylesheet" href="style/log.css">
+  
+  <script>
+    window.onload = function() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const fileContent = urlParams.get('content');
+      if (fileContent) {
+        const h1Element = document.getElementById('content');
+        h1Element.textContent = fileContent;
+      }
+    };
+  </script>
+</head>
+<body>
+  <h1 id="content"></h1>
+
+
+
+  <div id="bt">
+    <button id="btvoltar" onclick="redirecionar()">Voltar</button>
+    
+    
+</div>
+
+
+<script src="scripts/upload.js"></script>
+</body>
+</html>

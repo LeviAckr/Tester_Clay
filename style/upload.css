@@ -54,23 +54,35 @@ body{
 }
 #bt{
     padding-left: 750px;
-    margin-left: 80px;
-    padding-top: 350px;
+    letter-spacing: 100px;
+    margin-left: -230px;
+    padding-top: 100px;
+}
+#bt1{
+    border-radius: 25px;
+    width:200px;
+	height:45px;
+    background-color: transparent;
+    color: #ffffff;
+    font-weight: bold;
+   border-color: #ff4800;
 }
 #imagem{
     width: 100px;
     margin-bottom: 0;
   padding-left: 870px;
-  padding-top: 40px;
+  padding-top: 70px;
+ 
 }
 #tg{
     font-family: redo;
     letter-spacing: 4px;
     color: azure;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 20px;
     font-size: 150px;
     margin-bottom: 0;
+    margin-top: 0;
 }
 #sel{
     font-family: gordo;
@@ -79,4 +91,24 @@ body{
     text-align: center;
     padding-right: 10px;
     margin: 0px;
+}
+#bft{
+    width: 100px;
+    margin-bottom: 0;
+  padding-left: 870px;
+  padding-top: 40px;
+}
+#tester{
+    font-family: gordo;
+    color: antiquewhite;
+    margin-left: 680px;
+    margin-bottom: -30px;
+    padding-top: 2px;
+}
+#infos{
+    font-family: gordo;
+    color: antiquewhite;
+    margin-left: 90px;
+    margin-bottom: -30px;
+    padding-top: -10px;
 }

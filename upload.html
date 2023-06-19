@@ -9,19 +9,28 @@
 <body>
     <h2 id="tl">THE-CLAY</h2>
     <h2 id="direitos">Direitos Reservados a equipe TulipSquad ©</h2>
+    <h3 id="infos">Arquivos de texto (.txt) <br>são arquivos simples <br> que contêm apenas texto sem formatação especial <br>Eles são amplamente utilizados <br> para armazenar e compartilhar informações <br> em formato de texto simples</h3>
+    <h3 id="tester">#tester℗</h3>
     <h1 id="tg">UPLOAD</h1>
     <h3 id="sel">Selecione seu arquivo {.txt}</h3>
     <label for="fileInput">
         <img src="img/arqv.png" alt="Imagem" id="imagem">
       </label>
-      <input type="file" id="fileInput" style="display: none;"  accept=".txt">
+      <input type="file" id="fileInput" style="display: none;" onchange="handleFileSelect(event)" accept=".txt">
+      <img src="img/upup.png" alt="Imagem" id="bft">
 
+     
+      <div id="bt">
+        <button id="bt1" onclick="redirecionar1()">Ir para comandos</button>
+        <button id="btvoltar" onclick="redirecionar()">Voltar</button>
+        <button id="bt1" onclick="redirecionar3()">Log</button>
+        
+    </div>
+    
+    <img src="img/kenny.png" id="kenny" alt="">
 
     
-      <div id="bt">
-        <button id="btvoltar" onclick="redirecionar()">Voltar</button>
-    </div>
-    <img src="img/kenny.png" id="kenny" alt="">
+    <script src="scripts/user.js"></script>
    <script src="scripts/upload.js"></script>
 </body>
 </html>

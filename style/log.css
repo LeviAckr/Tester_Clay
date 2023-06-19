@@ -1,0 +1,32 @@
+@font-face {
+    font-family: gordo;
+    src: url(../assets/soka-Regular.ttf);
+  }
+@font-face{
+    font-family : redo;
+    src: url(../assets/LilitaOne-Regular.ttf);
+}
+body{
+  background-color: bisque;
+}
+#content{
+  font-family: gordo;
+  text-align: center;
+  padding-top: 250px;
+}
+#btvoltar{
+  border-radius: 25px;
+  width:300px;
+height:45px;
+  font-size: 15px;
+  background-image: linear-gradient(to right, rgb(0, 0, 0), #242424);
+  color: #ffffff;
+  font-weight: bold;
+  border-color: rgba(61, 59, 100, 0);
+}
+#bt{
+  padding-left: 1030px;
+  letter-spacing: 100px;
+  margin-left: -230px;
+  padding-top: 100px;
+}

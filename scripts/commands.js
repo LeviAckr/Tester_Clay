@@ -1,3 +1,3 @@
 function redirecionar(){
-    window.location.href = "index.html";
+    history.back();
 }

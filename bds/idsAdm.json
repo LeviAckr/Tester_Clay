@@ -1,0 +1,35 @@
+{
+    "ids":[
+        {
+            "id": 1,
+      "nome": "Sombra",
+      "email": "cartman@example.com",
+      "permissions":"dono"
+
+        },
+        {
+            "id": 2,
+            "nome": "Gabs",
+            "email": "cartman@example.com" ,
+            "permissions":"dev"
+        },
+        {
+            "id": 3,
+            "nome": "Jotinha",
+            "email": "cartman@example.com" ,
+            "permissions":"dev"
+        },
+        {
+            "id": 4,
+            "nome": "Bags",
+            "email": "cartman@example.com" ,
+            "permissions":"admin"
+        },
+        {
+            "id": 5,
+            "nome": "platina",
+            "email": "cartman@example.com" ,
+            "permissions":"admin"
+        }
+    ]
+}
