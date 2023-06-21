@@ -77,3 +77,36 @@ body{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+#te{
+padding-top: 10px;
+}
+
+#dig{
+    margin-left: 725px;
+    padding-right: 100px;
+    padding-top: 2px;
+    margin-top: 0;
+    padding-top: 0px;
+    color: #3c4061;
+    background-color: rgba(0, 0, 0, 0.233);
+}
+#dgt{
+    color: #ffffff;
+    font-family: gordo;
+    padding-top: 100px;
+    margin-bottom: 0;
+    padding-left: 730px;
+}
+#rd{
+    color: #ffffff;
+    background-color: transparent;
+    border-radius: 15px;
+    font-family: gordo;
+    border-color: wheat;
+}
+#mensagem-texto{
+    padding-top: 10px;
+    color: #ffffff;
+    padding-left: 730px;
+}
